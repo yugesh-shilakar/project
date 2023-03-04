@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,11 +14,23 @@
 
     <?php include 'header.php'; ?>
 
-
-    <?php include 'home.php'; ?>
-    
    
     <?php include 'sidebar.php'; ?>
+
+
+        <?php
+        echo'<div class="test">
+        <h1>CONTACT</h1>
+        <h2>Phone</h2>
+        <p>555-555-5555</p>
+        <h2>Email</h2>
+        <p>hello@gmail.com</p>
+        </div>'
+        ?>
+    
+    
+
+   
 
 
     <footer class="footer"> <h3>Copyright@2022</h3> </footer>
@@ -26,3 +39,5 @@
     
 </body>
 </html>
+
+
